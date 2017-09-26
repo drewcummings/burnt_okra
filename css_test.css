@@ -1,6 +1,13 @@
 body {
     background: #6eb5d8;
 }
+
+head {
+    border-style: solid;
+    border-width: 2px;
+    margin: 3px;
+    padding: 3px;
+    }
 header {
 
     background-color:#ffffff;
@@ -16,31 +23,31 @@ header {
 section {
     background: #ffccf1;
     max-width: 700px;
-    padding: 5px;
+    padding: 10px;
 }
 
 article {
     border-style: solid;
-    border-width: 5px;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
+    border-width: 7px;
+    border-radius: 7px;
+    margin: 7px;
+    padding: 7 px;
 }
 
 p {
-    font-family: arial, sans-serif;
+    font-family: georgia, serif;
 }
 
 h1 {
-  font-size: 24px;
-  font-family: arial,sans-serif;
+  font-size: 26px;
+  font-family: georgia, serif;
   color: rgb(232, 113, 23);
   text-align: center;
 }
 
 h2 {
-  font-size: 20px;
-  font-family: copperplate gothic;
+  font-size: 30px;
+  font-family: "Times New Roman", Times serif;
   color: rgb(232, 113, 23);
 }
 
@@ -51,17 +58,17 @@ h2 {
 
 .credits {
   display: inline;
-  color: #800000;
+  color: #e2d8c9;
 }
 
 .embedded_skill {
   display: inline;
-  color: #995c00;
+  color: ##e2b46f;
 }
 
 .offered {
   display: inline;
-  color: #000080;
+  color: #7a7575;
 }
 
 nav ul {
@@ -69,7 +76,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #7a7575;
   font-family: arial,sans-serif;
 }
 
@@ -81,12 +88,12 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 10px 20px;
+  text-decoration: underline;
 }
 
 
 nav li a:hover {
 
-  background-color: #111;
+  background-color: ##847c74;
   }
