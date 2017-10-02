@@ -1,64 +1,78 @@
-<!DOCTYPE html>
-<!-- Mark Becker -->
-
-<html lang = "en">
+<!DOCTYPE HTML>
+<!--Patrick Long-Quian-->
+<html lang="en">
 
     <head>
+
         <title> Burnt Okra </title>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Main CSS styles for Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="little_fix.css">
 
-    <!-- Optional theme add-on -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    </head>                                     
+    </head> 
+
     <body>
-    <header>  <img src="images/graphic.png" alt="Burnt Okra Logo" height="150" Width="300"/>                 
+
+    <header>
+
     </header>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
 
-            <!-- Three line "hamburger" icon for the collapsed navigation -->
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Burnt Okra</a>
+    </div>
 
-          <!-- Title on nav bar -->
-          <a class="navbar-brand" href="#">Bootstrap</a>
-        </div>
-
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active">
-            <a href="index.html">Home</a>
-            </li>          
-            <li><a href="about.html">About</a></li>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>         
+            <li class="active"><a href="about.html">About</a></li>
             <li><a href="events.html">Events</a></li>
             <li><a href="news.html">News</a></li>
             <li><a href="social_media.html">Social Media</a></li>
             <li><a href="merch.html">Merch</a></li>
+            <li><a href="sign_up.html">Sign-Up</a></li>
+            <li><a href="login.html">Log-In</a></li>
         </ul>
-          </div>
-      </div>
-    </nav>
+    </div>
+  </div>
+</nav>
+
+    <div class="container">
         
-        <h1>About Burnt Okra</h1>               
-        <img src="images/jimJohnson.jpg" alt="Jim Johnson"/>
-        <p>Jim Johnson is the lead drummer for Burnt Okra. He is 40 years old and currently resides in Urbandale, Iowa with his wife and two kids. When he's not rocking, he enjoys spending time fishing and playing pick-up basketball.</p>
-        <img src="images/sandyWagner.jpg" alt="Sandy Wagner"/>
+        <h1 style="padding: 50px">About Burnt Okra</h1> 
+
+        <div class="mycolor col-xs-6">              
+        <img src="images/jimJohnson.jpg" alt="Jim Johnson" style="float: left;" />
+        <p style>Jim Johnson is the lead drummer for Burnt Okra. He is 40 years old and currently resides in Urbandale, Iowa with his wife and two kids. When he's not rocking, he enjoys spending time fishing and playing pick-up basketball.</p>
+        </div>
+
+        <div class="mycolor col-xs-6">
+        <img src="images/sandyWagner.jpg" alt="Sandy Wagner" style="float; right;" />
         <p>Sandy Wagner is the lead guitarist for Burnt Okra. She is 37 years old and lives in Zearing, Iowa with her husband and daughter Hailey. When she is not rocking, she enjoys spending her time riding motorcycles or going to the park with Hailey.</p>
-        <img src="images/benJeffery.jpg" alt="Ben Jeffery"/>
+        </div>
+
+        <div class="mycolor col-xs-6">
+        <img src="images/benJeffery.jpg" alt="Ben Jeffery" style="float; left;"/>
         <p>Ben Jeffery is the lead vocalist for Burnt Okra. He is 38 years old and lives in Ames, Iowa. When he is not rocking he enjoys spending his time with his pet lizards and knitting.</p>
+        </div>
+
+    </div>
         
-        <footer>
+    <footer style="padding:50px;">
             Copyright 2017 by Burnt Okra
-        </footer>
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </body>     
+    </footer>
+
+    </body>  
+
 </html>

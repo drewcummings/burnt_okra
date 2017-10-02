@@ -1,0 +1,22 @@
+.img_below {
+  padding-top: 50px;
+}
+
+p{
+	padding:50px;
+}
+h1{
+	padding-top: 50px;
+}
+
+.jumbotron{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 50px;
+}
+.navbar{
+	margin-bottom: 50px;
+}
+.container{
+	padding-top: 50px;
+}
